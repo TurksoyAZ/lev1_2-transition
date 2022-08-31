@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* section{
+  width: 1000px;
+  height: 200px;
+  background-color: rgb(181, 126, 247);
+  border-radius: 10px;
+  background-image: url(../img/road-game-road-illustration-1347102.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+section:hover >div{
+
+ transform: translateX(900px);
+ 
+}
+
+section>div:first-child{
+  
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80px;
+width: 100px;
+margin-bottom: 20px;
+margin-top: 5px;
+background-color: red;
+border-radius: 10px;
+
+
+transition-property: transform;
+transition-duration: 3s;
+transition-timing-function: ease;
+
+
+}
+
+section>div:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100px;
+  margin-top: 30px;
+  background-color: rgb(158, 79, 227);
+  border-radius: 10px;
+
+
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-delay: 1s;
+  transition-timing-function: ease;
+  
+}
+
+ */
+
+
+
+.container{
+  width: 1000px;
+  height: 300px;
+  background-color: rgb(155, 163, 171);
+  position: relative;
+}
+
+.container:hover>div{
+  left: 85%;
+}
+
+.boxRed{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+ transition:  all 2s;
+}
+
+
+.boxGreen{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition:  all 2s;
+  transition-delay: 1s;
+}
+
+
